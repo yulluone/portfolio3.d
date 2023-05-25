@@ -23,7 +23,13 @@ import {
   jobit,
   tripguide,
   threejs,
-} from "../assets";
+} from "../public/assets";
+
+export const myDetails = {
+  name: "Josh Yullu",
+  company: "YulluOneTech",
+  phone: "+254 742 092 240",
+};
 
 export const navLinks = [
   {
