@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 
-import { styles } from "@/utils/styles";
+import { styles } from "@/components/styles";
 import LogoAndName from "./navComponents/LogoAndName";
 import NavLinksComponent from "./navComponents/NavLinksComponent";
 import MobileMenu from "./navComponents/MobileMenu";
