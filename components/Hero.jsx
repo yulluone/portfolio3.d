@@ -1,9 +1,17 @@
-import React from 'react'
+"use client";
+
+import ComputersCanvas from "./canvas/ComputersCanvas";
+import AnimatedScrollWheel from "./heroComponents/AnimatedScrollWheel";
+import HeroIntroText from "./heroComponents/HeroIntroText";
 
 const Hero = () => {
   return (
-    <div>Hero</div>
-  )
-}
+    <section className="relative w-full h-screen mx-auto">
+      <HeroIntroText />
+      <ComputersCanvas />
+      <AnimatedScrollWheel />
+    </section>
+  );
+};
 
-export default Hero
+export default Hero;
