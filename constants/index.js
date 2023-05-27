@@ -31,6 +31,16 @@ export const myDetails = {
   phone: "+254 742 092 240",
 };
 
+export const greeting = {
+  openingStatement: "Hi, I am Yullu",
+  intro: "I build stunning applications for the Web and Mobile",
+};
+
+export const myInfo = {
+  about:
+    "I'm a skilled software engineer with experience in TypeScript, Javascript and Python, and expertise in frameworks like React, Vue, Node.js, NextJs, and Nuxt. I'm a quick learner and a collaborate closely with clients to create efficient, scalable, and user friendly solutions that solve real-world problems. Let's work together to bring your ideas to reality!",
+};
+
 export const navLinks = [
   {
     id: "about",
@@ -48,19 +58,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Web Development",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Back-End Development",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "API Development",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Dev Ops & Automation",
     icon: creator,
   },
 ];
