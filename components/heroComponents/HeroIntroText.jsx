@@ -1,4 +1,5 @@
 import { styles } from "@/components/styles";
+import { greeting } from "@/constants";
 
 const HeroIntroText = () => {
   return (
@@ -11,10 +12,10 @@ const HeroIntroText = () => {
       </div>
       <div>
         <h1 className={`${styles.heroHeadText} text-white`}>
-          Hi, I am <span className="text-[#915eff]">Josh</span>
+          Hi, I am <span className="text-[#915eff]">Yullu</span>
         </h1>
         <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          I develop stunning web applications.
+          {greeting.intro}
         </p>
       </div>
     </div>
