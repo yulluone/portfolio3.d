@@ -15,14 +15,14 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  ignitus,
+  moe,
+  sankore,
+  wedancelogo,
 } from "../public/assets";
 
 export const myDetails = {
@@ -134,8 +134,8 @@ const experiences = [
   {
     title: "Full Stack Developer",
     company_name: "WeDance",
-    icon: starbucks,
-    iconBg: "#383E56",
+    icon: wedancelogo,
+    iconBg: "#ffff",
     date: "September 2022 - Date",
     points: [
       "Collaborating with the founder, design & dev teams to implement new designs & features like:",
@@ -147,8 +147,8 @@ const experiences = [
   {
     title: "Machine Learning Engineer(Intern)",
     company_name: "Ignitus",
-    icon: tesla,
-    iconBg: "#E6DEDD",
+    icon: ignitus,
+    iconBg: "#ffff",
     date: "May 2022 - September 2022",
     points: [
       "Worked on 3 projects:",
@@ -160,8 +160,8 @@ const experiences = [
   {
     title: "ICT Officer (Intern)",
     company_name: "Ministry of Education, Nairobi",
-    icon: shopify,
-    iconBg: "#383E56",
+    icon: moe,
+    iconBg: "#ffff",
     date: "Jan 2022 - May 2022",
     points: [
       "Collaborating with the existing dev team to revamp the NEMIS UI using ReactJs",
@@ -172,8 +172,8 @@ const experiences = [
   {
     title: "Web3 Developer",
     company_name: "Sankore 2.0",
-    icon: meta,
-    iconBg: "#E6DEDD",
+    icon: sankore,
+    iconBg: "#383E56",
     date: "April 2021 - December 2021",
     points: [
       "Building fullstack applications using React & Node that make use of smart contracts",
