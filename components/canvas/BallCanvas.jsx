@@ -11,7 +11,7 @@ import Ball from "./Ball";
 const BallCanvas = ({ icon }) => {
   return (
     // Create a new Canvas component from the @react-three/fiber package
-    <Canvas frameloop="demand" gl={{ preserveDrawingBuffer: true }}>
+    <Canvas frameLoop="demand" gl={{ preserveDrawingBuffer: true }}>
       {/* Use the Suspense component to handle loading states for the Ball component */}
       <Suspense fallback={<CanvasLoader />}>
         {/* Add OrbitControls component for mouse and touch controls */}

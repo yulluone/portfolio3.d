@@ -19,6 +19,15 @@ import {
   jobit,
   tripguide,
   threejs,
+  aws,
+  cplus,
+  firebase,
+  gcp,
+  nextjs,
+  nuxt,
+  python,
+  supabase,
+  vue,
   ignitus,
   moe,
   sankore,
@@ -97,8 +106,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Vue Js",
+    icon: vue,
   },
   {
     name: "Tailwind CSS",
@@ -113,16 +122,16 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "Google Cloud",
+    icon: gcp,
+  },
+  {
+    name: "Firebase",
+    icon: firebase,
   },
   {
     name: "docker",

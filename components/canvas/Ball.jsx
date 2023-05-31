@@ -6,6 +6,8 @@ const Ball = (props) => {
   // Use the useTexture hook to load the image specified by the imgUrl prop
   const [decal] = useTexture([props.imgUrl]);
 
+  console.log(props.imgUrl);
+
   // Render the 3D ball mesh
   return (
     <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
