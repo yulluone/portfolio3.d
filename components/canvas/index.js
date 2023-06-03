@@ -1,4 +1,4 @@
-import EarthCanvas from "./Earth";
+import EarthCanvas from "./EarthCanvas";
 import BallCanvas from "./BallCanvas";
 import ComputersCanvas from "./ComputersCanvas";
 import StarsCanvas from "./Stars";
