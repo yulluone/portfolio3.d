@@ -8,26 +8,19 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
-  aws,
-  cplus,
   firebase,
   gcp,
-  nextjs,
-  nuxt,
-  python,
-  supabase,
   vue,
+  docker,
+  authui,
+  portfolio1,
+  rentals,
+  netflix,
+  wedance,
   ignitus,
   moe,
   sankore,
@@ -67,7 +60,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Development",
+    title: "Front-End Development",
     icon: web,
   },
   {
@@ -86,14 +79,6 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
     name: "JavaScript",
     icon: javascript,
   },
@@ -110,13 +95,14 @@ const technologies = [
     icon: vue,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
     name: "Node JS",
     icon: nodejs,
   },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+
   {
     name: "MongoDB",
     icon: mongodb,
@@ -221,16 +207,85 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Portfolio3.D",
+    description: "A 3D testament of the skill growth.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "threejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "framer-motion",
+        color: "green-text-gradient",
+      },
+    ],
+    image: netflix,
+    source_code_link: "https://github.com/",
+    demo_link: "",
+  },
+  {
+    name: "Netflix Rebuild",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A rebuild of one of my favourites User Interfaces, a showcase if my front end skills.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "api-integration",
+        color: "green-text-gradient",
+      },
+    ],
+    image: netflix,
+    source_code_link: "https://github.com/",
+    demo_link: "https://netflix-clone-743e0.web.app/",
+  },
+  {
+    name: "Portfolio1.0",
+    description:
+      "A portfolio starter template, made for creatives and devs to showcase their work. Easy to clone and use.",
+    tags: [
+      {
+        name: "vue",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+    ],
+    image: portfolio1,
+    source_code_link: "https://github.com/",
+    demo_link: "https://dev-portfolio-starter.vercel.app/",
+  },
+  {
+    name: "Portfolio2.0",
+    description:
+      "My first live portfolio site. Make it your own by cloning the git repo and adding our information.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "planetscale",
         color: "green-text-gradient",
       },
       {
@@ -238,34 +293,113 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: netflix,
+    source_code_link: "https://github.com/",
+    demo_link: "",
+  },
+
+  {
+    name: "WeDance",
+    description:
+      "A platform that connects people passionate about dance via dance events and workshops.",
+    tags: [
+      {
+        name: "vue-nuxt",
+        color: "green-text-gradient",
+      },
+      {
+        name: "firebase+firetore",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: wedance,
+    demo_link: "https://wedance.vip/",
+  },
+  {
+    name: "TheSafeHouse",
+    description:
+      "A website and blog for a mental health organisation aimed at creating a virtual safe space for the Kenyan youth to share about mental health anfd life",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "vercel",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: wedance,
+    source_code_link: "https://github.com/",
+    demo_link: "https://thesafehouse.vercel.app/",
+  },
+  {
+    name: "Edemy",
+    description:
+      "A comprehensive E-Learning Marketplace offering students freedom of choice and educators flexibility of work.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mpesa-daraja",
+        color: "green-text-gradient",
+      },
+    ],
+    image: netflix,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Rentals",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Real-Estate rental booking UI re-imagined based of off AirBnB, a showcase if my front end skills.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "css",
         color: "pink-text-gradient",
       },
+      {
+        name: "api-integration",
+        color: "green-text-gradient",
+      },
     ],
-    image: jobit,
+    image: rentals,
     source_code_link: "https://github.com/",
+    demo_link: "https://air-bnb-clone-4b0bd.web.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Auth Template",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "An comprehensive authentication for Nextjs app. Easy to use and customize. Go to reposiroty.",
     tags: [
       {
         name: "nextjs",
@@ -276,12 +410,13 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: authui,
     source_code_link: "https://github.com/",
+    demo_link: "https://yullu.me/work/supabase-authui",
   },
 ];
 
