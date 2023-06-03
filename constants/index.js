@@ -40,7 +40,7 @@ export const greeting = {
 
 export const myInfo = {
   about:
-    "I'm a skilled software engineer with experience in TypeScript, Javascript and Python, and expertise in frameworks like React, Vue, Node.js, NextJs, and Nuxt. I'm a quick learner and a collaborate closely with clients to create efficient, scalable, and user friendly solutions that solve real-world problems. Let's work together to bring your ideas to reality!",
+    "I'm a skilled software engineer with experience in TypeScript, Javascript and Python, and expertise in frameworks like React, Vue, Node.js, NextJs, and Nuxt. I'm a quick learner and I collaborate closely with clients to create efficient, scalable, and user friendly solutions that solve real-world problems. Let's work together to bring your ideas to reality!",
 };
 
 export const navLinks = [
