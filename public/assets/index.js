@@ -43,6 +43,9 @@ import portfolio1 from "./portfolio1.png";
 import rentals from "./rentals.png";
 import netflix from "./netflix.png";
 import wedance from "./wedance.png";
+import portfolio2 from "./portfolio2.png";
+import portfolio3 from "./portfolio3.png";
+import thesafehouse from "./thesafehouse.png";
 
 export {
   logo,
@@ -84,4 +87,7 @@ export {
   rentals,
   netflix,
   wedance,
+  portfolio2,
+  portfolio3,
+  thesafehouse,
 };

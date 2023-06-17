@@ -18,9 +18,12 @@ import {
   docker,
   authui,
   portfolio1,
+  portfolio2,
+  portfolio3,
   rentals,
   netflix,
   wedance,
+  thesafehouse,
   ignitus,
   moe,
   sankore,
@@ -35,7 +38,7 @@ export const myDetails = {
 
 export const greeting = {
   openingStatement: "Hi, I am Yullu",
-  intro: "I build stunning applications for the Web and Mobile",
+  intro: "I build stunning and efficient applications solutions for the Web",
 };
 
 export const myInfo = {
@@ -181,26 +184,26 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "I thought it was impossible to make a website as beautiful as our product, but YulluOneTech proved me wrong.",
+    name: "Dyllon Musila",
+    designation: "Founder",
+    company: "TheSafeHouse",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "I've never met a web developer who truly cares about their clients' needs and success like YulluOneTech does.",
+    name: "Jim Njagi",
+    designation: "ICTO",
+    company: "MOE",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "After YulluOneTech optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Alex",
+    designation: "Founder",
+    company: "WeDance",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
@@ -227,7 +230,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: netflix,
+    image: portfolio3,
     source_code_link: "https://github.com/",
     demo_link: "",
   },
@@ -293,7 +296,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: netflix,
+    image: portfolio2,
     source_code_link: "https://github.com/",
     demo_link: "",
   },
@@ -308,7 +311,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "firebase+firetore",
+        name: "firebase+firestore",
         color: "blue-text-gradient",
       },
       {
@@ -341,7 +344,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: wedance,
+    image: thesafehouse,
     source_code_link: "https://github.com/",
     demo_link: "https://thesafehouse.vercel.app/",
   },
