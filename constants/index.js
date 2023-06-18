@@ -24,6 +24,7 @@ import {
   netflix,
   wedance,
   thesafehouse,
+  edemy,
   ignitus,
   moe,
   sankore,
@@ -370,7 +371,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: netflix,
+    image: edemy,
     source_code_link: "https://github.com/",
   },
   {

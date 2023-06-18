@@ -46,6 +46,7 @@ import wedance from "./wedance.png";
 import portfolio2 from "./portfolio2.png";
 import portfolio3 from "./portfolio3.png";
 import thesafehouse from "./thesafehouse.png";
+import edemy from './edemy.png';
 
 export {
   logo,
@@ -90,4 +91,5 @@ export {
   portfolio2,
   portfolio3,
   thesafehouse,
+  edemy,
 };
