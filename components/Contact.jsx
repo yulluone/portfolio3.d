@@ -20,8 +20,38 @@ const Contact = () => {
   });
   const [loading, setLoading] = useState(false);
 
-  const handleChange = (e) => {};
-  const handleSubmit = (e) => {};
+  const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
+  const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
+  const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
+
+  const handleChange = (e) => {
+    setForm({
+      ...form,
+      [e.target.name]: e.target.value,
+    });
+  };
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setLoading(true);
+    await emailjs
+      .send(`${serviceId}`, `${templateId}`, e.target.value, `${publicKey}`)
+      .then(
+        function (response) {
+          setForm({
+            ...form,
+            name: "",
+            email: "",
+            message: "",
+          });
+          window.alert("Message sent! Expect a reply within 24hrs.");
+          setLoading(false);
+        },
+        function (error) {
+          window.alert("Sending message failed! Please try again later.");
+          setLoading(false);
+        }
+      );
+  };
 
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">

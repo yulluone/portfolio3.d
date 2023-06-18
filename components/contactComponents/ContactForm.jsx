@@ -6,15 +6,26 @@ import { styles } from "../styles";
 import { EarthCanvas } from "../canvas";
 import { slideIn } from "@/utils/motion";
 
-const ContactForm = ({ formRef, handleSubmit, handleChange, form, loading }) => {
+const ContactForm = ({
+  formRef,
+  handleSubmit,
+  handleChange,
+  form,
+  loading,
+}) => {
   return (
-    <form ref={formRef} className="mt-12 flex flex-col gap-8">
+    <form
+      ref={formRef}
+      className="mt-12 flex flex-col gap-8"
+      onSubmit={handleSubmit}
+    >
       <label className="flex flex-col">
         <span className="text-white font-medium mb-4">Your Name</span>
         <input
           type="text"
           name="name"
           value={form.name}
+          required
           onChange={handleChange}
           placeholder="What's your name?"
           className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
@@ -25,6 +36,7 @@ const ContactForm = ({ formRef, handleSubmit, handleChange, form, loading }) => 
         <input
           type="email"
           name="email"
+          required
           value={form.email}
           onChange={handleChange}
           placeholder="What's your email?"
@@ -36,6 +48,7 @@ const ContactForm = ({ formRef, handleSubmit, handleChange, form, loading }) => 
         <textarea
           rows="7"
           name="message"
+          required
           value={form.message}
           onChange={handleChange}
           placeholder="What do you want to say?"
