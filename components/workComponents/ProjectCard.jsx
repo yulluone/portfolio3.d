@@ -37,7 +37,7 @@ const ProjectCard = ({
               <ProjectLink src={github} alt="github" link={source_code_link} />
             )}
             {demo_link && (
-              <ProjectLink src={goto} alt="demo" link={source_code_link} />
+              <ProjectLink src={goto} alt="demo" link={demo_link} />
             )}
           </div>
         </div>
