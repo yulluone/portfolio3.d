@@ -400,28 +400,28 @@ const projects = [
     source_code_link: "https://github.com/joshuamwo/airbnb-clone",
     demo_link: "https://air-bnb-clone-4b0bd.web.app/",
   },
-  {
-    name: "Auth Template",
-    description:
-      "An comprehensive authentication for Nextjs app. Easy to use and customize. Go to reposiroty.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: authui,
-    source_code_link: "https://github.com/joshuamwo/supabase-nextjs-auth",
-    demo_link: "https://yullu.me/work/supabase-authui",
-  },
+  // {
+  //   name: "Auth Template",
+  //   description:
+  //     "An comprehensive authentication for Nextjs app. Easy to use and customize. Go to reposiroty.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: authui,
+  //   source_code_link: "https://github.com/joshuamwo/supabase-nextjs-auth",
+  //   demo_link: "https://yullu.me/work/supabase-authui",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
