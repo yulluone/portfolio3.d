@@ -34,7 +34,12 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
     await emailjs
-      .send(`${serviceId}`, `${templateId}`, e.target.value, `${publicKey}`)
+      .sendForm(
+        `${serviceId}`,
+        `${templateId}`,
+        formRef.current,
+        `${publicKey}`
+      )
       .then(
         function (response) {
           setForm({
