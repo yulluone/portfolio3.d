@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { Tilt } from "react-tilt";
 import Image from "next/image";
 import { github } from "@/public/assets";
+import { goto } from "@/public/assets";
 
 import ProjectLink from "./ProjectLink";
 
@@ -36,7 +37,7 @@ const ProjectCard = ({
               <ProjectLink src={github} alt="github" link={source_code_link} />
             )}
             {demo_link && (
-              <ProjectLink src={github} alt="demo" link={source_code_link} />
+              <ProjectLink src={goto} alt="demo" link={source_code_link} />
             )}
           </div>
         </div>

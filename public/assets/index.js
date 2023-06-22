@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import goto from "./goto.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -46,7 +47,7 @@ import wedance from "./wedance.png";
 import portfolio2 from "./portfolio2.png";
 import portfolio3 from "./portfolio3.png";
 import thesafehouse from "./thesafehouse.png";
-import edemy from './edemy.png';
+import edemy from "./edemy.png";
 
 export {
   logo,
@@ -55,6 +56,7 @@ export {
   mobile,
   web,
   github,
+  goto,
   menu,
   close,
   css,
