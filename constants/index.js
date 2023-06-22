@@ -210,31 +210,31 @@ const testimonials = [
 ];
 
 const projects = [
-  {
-    name: "Portfolio3.D",
-    description: "A 3D testament of the skill growth.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "threejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "framer-motion",
-        color: "green-text-gradient",
-      },
-    ],
-    image: portfolio3,
-    source_code_link: "https://github.com/",
-    demo_link: "",
-  },
+  // {
+  //   name: "Portfolio3.D",
+  //   description: "A 3D testament of the skill growth.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "threejs",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "framer-motion",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: portfolio3,
+  //   source_code_link: "https://github.com/",
+  //   demo_link: "",
+  // },
   {
     name: "Netflix Rebuild",
     description:
@@ -282,7 +282,7 @@ const projects = [
   {
     name: "Portfolio2.0",
     description:
-      "My first live portfolio site. Make it your own by cloning the git repo and adding our information.",
+      "My previous portfolio website. Clean and minimal. Make it your own by cloning the git repo and adding our information.",
     tags: [
       {
         name: "nextjs",
@@ -298,8 +298,8 @@ const projects = [
       },
     ],
     image: portfolio2,
-    source_code_link: "https://github.com/",
-    demo_link: "",
+    source_code_link: "https://github.com/portfolio2.0",
+    demo_link: "https://yulluone.vercel.app",
   },
 
   {
@@ -327,28 +327,28 @@ const projects = [
     image: wedance,
     demo_link: "https://wedance.vip/",
   },
-  {
-    name: "TheSafeHouse",
-    description:
-      "A website and blog for a mental health organisation aimed at creating a virtual safe space for the Kenyan youth to share about mental health anfd life",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "vercel",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: thesafehouse,
-    source_code_link: "https://github.com/",
-    demo_link: "https://thesafehouse.vercel.app/",
-  },
+  // {
+  //   name: "TheSafeHouse",
+  //   description:
+  //     "A website and blog for a mental health organisation aimed at creating a virtual safe space for the Kenyan youth to share about mental health anfd life",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "vercel",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: thesafehouse,
+  //   source_code_link: "https://github.com/",
+  //   demo_link: "https://thesafehouse.vercel.app/",
+  // },
   {
     name: "Edemy",
     description:
@@ -372,7 +372,7 @@ const projects = [
       },
     ],
     image: edemy,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/edemy-client",
   },
   {
     name: "Rentals",
@@ -397,7 +397,7 @@ const projects = [
       },
     ],
     image: rentals,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/joshuamwo/airbnb-clone",
     demo_link: "https://air-bnb-clone-4b0bd.web.app/",
   },
   {
@@ -419,7 +419,7 @@ const projects = [
       },
     ],
     image: authui,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/joshuamwo/supabase-nextjs-auth",
     demo_link: "https://yullu.me/work/supabase-authui",
   },
 ];
