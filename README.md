@@ -2,6 +2,15 @@
 
 Welcome to the 3D Portfolio Showcase, a Next.js application designed for tech enthusiasts to showcase their projects and experiences in a visually appealing 3D environment.
 
+## Tech Used
+
+- **Next.js**: A React framework for building server-rendered applications.
+- **Three.js**: A JavaScript library for creating 3D graphics in the browser.
+- **React Three Fiber**: A React renderer for Three.js, making it easier to integrate 3D graphics into React applications.
+- **Tailwind CSS**: A utility-first CSS framework for building modern web applications.
+- **Node.js**: A JavaScript runtime for server-side development.
+- **npm**: The package manager for JavaScript projects.
+
 ## Getting Started
 
 To run this project locally, you'll need to have Node.js and npm installed on your machine. If you haven't installed them yet, you can download them from [Node.js official website](https://nodejs.org/).
