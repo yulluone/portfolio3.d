@@ -1,34 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 3D Portfolio Showcase
+
+Welcome to the 3D Portfolio Showcase, a Next.js application designed for tech enthusiasts to showcase their projects and experiences in a visually appealing 3D environment.
 
 ## Getting Started
 
-First, run the development server:
+To run this project locally, you'll need to have Node.js and npm installed on your machine. If you haven't installed them yet, you can download them from [Node.js official website](https://nodejs.org/).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+1. Clone the repository to your local machine:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+    ```bash
+    git clone https://github.com/yulluone/portfolio3.d.git
+    ```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+2. Navigate to the project directory:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+    ```bash
+    cd portfolio3.d
+    ```
 
-## Learn More
+3. Install the project dependencies:
 
-To learn more about Next.js, take a look at the following resources:
+    ```bash
+    npm install
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. Run the development server:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+    ```bash
+    npm run dev
+    ```
 
-## Deploy on Vercel
+5. Open your browser and visit [http://localhost:3000](http://localhost:3000) to view your 3D portfolio.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Customization
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+To personalize the portfolio with your details, simply edit the relevant sections in the project. Feel free to explore files and customize the styles, colors, or any other aspect of the portfolio to suit your preferences.
+
+## Deployment
+
+Once you're satisfied with your customizations, you can deploy your 3D portfolio to Vercel for free. Make sure to configure the deployment settings according to the hosting platform of your choice.
+
+## Contributing
+
+If you find any issues or have suggestions for improvements, feel free to open an issue or create a pull request. Contributions are always welcome!
+
+
+Happy showcasing your tech journey in 3D! 🚀
